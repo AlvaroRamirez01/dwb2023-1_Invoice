@@ -87,6 +87,7 @@
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
+<<<<<<< Updated upstream
 			<dependency>
 				<groupId>org.springframework.cloud</groupId>
 				<artifactId>spring-cloud-dependencies</artifactId>
@@ -94,6 +95,17 @@
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
+=======
+				<dependency>
+				<groupId>org.springframework.cloud</groupId>
+				<artifactId>spring-cloud-starter-feign</artifactId>
+				<version>1.4.7.RELEASE</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+			
+			
+>>>>>>> Stashed changes
 		</dependencies>
 	</dependencyManagement>
 
