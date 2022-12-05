@@ -2,6 +2,7 @@ package com.invoice.configuration.client;
 
 import javax.validation.constraints.NotNull;
 
+import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

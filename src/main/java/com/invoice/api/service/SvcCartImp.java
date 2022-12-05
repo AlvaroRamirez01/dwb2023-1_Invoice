@@ -52,6 +52,10 @@ public class SvcCartImp implements SvcCart {
 		 * Requerimiento 4
 		 * Validar si el producto ya había sido agregado al carrito para solo actualizar su cantidad
 		 */
+		String rfc = cart.getRfc();
+		String gtin = cart.getGtin();
+		Integer product_stock = getStockProduct(cart.getGtin());
+		Integer cartQuantity = cart.getQuantity();
 		String response = "item added";
 		List<Cart> carts = repo.findByRfcAndGtin(rfc, gtin);
 
